@@ -19,8 +19,9 @@ h1 {
   margin: 0;
   margin-bottom: 3rem;
 }
+
 p {
-  font-size: 1.25rem;
+  font-size: 1.25rem; /* 20 / 16 = 1.25 */
   line-height: 1.5;
   margin: 0;
   margin-bottom: 1rem;
@@ -28,9 +29,11 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
+
 strong {
   color: hsl(160deg 100% 30%);
 }
+
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
@@ -38,9 +41,9 @@ strong {
 }
 
 .intro-chunk {
+  max-width: 415px;
   padding-top: 96px;
   padding-bottom: 64px;
-  max-width: 415px;
 }
 
 main {
@@ -56,14 +59,14 @@ main {
 }
 
 .indented-heading {
+  width: fit-content;
   font-size: 1.5rem;
   line-height: 1.2;
-  padding: 16px 32px;
-  background-color: hsl(45deg 100% 50%);
-  border-bottom: 8px solid hsl(45deg 100% 40%);
-  width: fit-content;
   margin: 0;
   margin-left: -32px;
   margin-top: -16px;
   margin-bottom: 1rem;
+  padding: 16px 32px;
+  background: hsl(45deg 100% 50%);
+  border-bottom: 8px solid hsl(45deg 100% 40%);
 }
